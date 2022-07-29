@@ -21,7 +21,7 @@ RunCat Version: 9.7（10.0.2）
 - ### 3. 将`zh_CN.lproj`放进去即可，最终文件路径应该是
 
     ```path
-    /Applications/RunCat.app/Contents/Resources/zh_CN.lproj
+    /Applications/RunCat.app/Contents/Resources/zh_CN.lproj/
     ```
 
 ## 注意事项
