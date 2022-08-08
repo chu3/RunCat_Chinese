@@ -2,7 +2,7 @@
 
 RunCat 任务栏养猫的中文汉化包(目前仅限 MacOS)
 
-RunCat Version: 9.7（10.0.2）
+RunCat Version: 9.7（10.0.2）(是在App Store里下载的)
 
 ## 效果图
 
