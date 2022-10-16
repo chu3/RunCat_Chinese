@@ -68,7 +68,7 @@
 
 // 自制
 "selfMadeError" = "自制的RunCat错误";
-"fileBroken" = "该RunCat的数据已损坏。请重新注册。";
+"fileBroken" = "该RunCat的数据已损坏，请重新自制。";
 
 // 停止RunCat
 "stopRunnerMessage" = "你确实要停止RunCat吗？";
@@ -79,7 +79,7 @@
 // 商店和 IAP 通知
 "storeOpenError" = "商店当前不可用";
 "cannotPayment" = "无法付款";
-"someTrouble" = "你的电脑可能没有连接到互联网，或者商店的服务器可能有问题";
+"someTrouble" = "你的电脑可能没有连接到互联网，或者商店的服务器可能有问题。";
 "storeNotification" = "RunCat: RunCat商店";
 "finishPurchase" = "购买完成";
 "funTime" = "玩的开心！!";
@@ -104,7 +104,7 @@
 "registrationError" = "RunCat注册失败";
 "addImage" = "你上传的文件 FILE_NAME 违反了规定。";
 "over100" = "你不能上传超过100张图片。";
-"nameConflict" = "这个名字已经被使用了。请使用另一个。";
+"nameConflict" = "这个名字已经被使用了，请使用另一个。";
 "registerFailed" = "注册失败。";
 "loadingImageError" = "图像加载错误";
 "onlyPNG" = "你能使用的唯一文件格式是png。";
@@ -113,7 +113,7 @@
 
 // 错误支持
 "recommendMessage" = "目前启用了停止运行器的设置。";
-"recommendInfo" = "如果这不是你的本意，请在首选项中禁用停止运行器的设置。我对这可能造成的任何不便表示歉意。";
+"recommendInfo" = "如果这不是你的本意，请在首选项中禁用停止运行器的设置，我对这可能造成的任何不便表示歉意。";
 
 // Runner Name
 "cat"            = "Cat α";
