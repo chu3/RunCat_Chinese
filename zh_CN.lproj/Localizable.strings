@@ -1,39 +1,25 @@
-﻿/* 
+﻿/*
   Localizable.strings
   RunCat
 
-  Created by chu3 on 2022/10/16.
-  
+  Created chu3 on 2023/05/12.
 */
 
-"support" = "支持\n";
-"url" = "https://kyome.io/runcat/index.html";
-"urlQueryLang" = "%@?lang=cn";
-"urlQueryLangHelp" = "%@?lang=cn#self_made";
-"urlQueryLangPlugins" = "%@?lang=cn#plugins";
-
-// 邮箱
-"issueReport" = "问题报告";
-"environment" = "# 环境\n- %@: 版本 %@\n- macOS: %@\n";
-"whatYouTried" = "# 你尝试过什么\n- 重新启动应用程序: 是/否\n- 在RunCat商店恢复购买: 是/否\n";
-"shortDescription" = "# 简短描述\n\n";
-"reproduceIssue" = "# 故障再现步骤\n\n";
-"expectedResult" = "# 预期结果\n\n";
-
-// 主要菜单
+// ★★★ 菜单 ★★★
 "systemInfo" = "系统信息";
-"runner" = "皮肤";
-"runnersStore" = "商店";
-"preferences" = "设置...";
+"runner" = "跑步者";
+"settings" = "设置…";
+"runnersStore" = "跑步者商店…";
+"selfMadeRunners" = "自制跑步者…";
 "activityMonitor" = "打开活动监视器";
-"aboutApp" = "关于RunCat";
-"acknowledgments" = "致谢";
-"reportIssue" = "报告问题";
-"quitApp" = "退出RunCat";
+"aboutApp" = "关于 RunCat";
+"reportAnIssue" = "报告问题";
+"terminateApp" = "退出 RunCat";
+"debug" = "调试";
+"debugSleep" = "调试休眠";
+"debugWakeUp" = "调试唤醒";
 
-// 系统信息
-"temperature" = "温度: %4.1f°C";
-
+// ★★★ 系统信息 ★★★
 // CPU
 "cpu" = "CPU: %4.1f%%";
 "system" = "系统: %4.1f%%";
@@ -44,159 +30,201 @@
 "memory" = "内存: %4.1f%%";
 "pressure" = "压力: %4.1f%%";
 "app" = "应用: %4.1f GB";
-"wired" = "联动: %4.1f GB";
+"wired" = "物理内存: %4.1f GB";
 "compressed" = "压缩: %4.1f GB";
 
 // 电池
 "batteryIsNotInstalled" = "电池: 未安装";
-"battery" = "电量: %5.1f%%";
+"battery" = "电池: %5.1f%%";
 "powerSource" = "电源: %@";
-"health" = "状况: %5.1f%%";
+"health" = "健康: %5.1f%%";
 "maxCapacity" = "最大容量: %5.1f%%";
 "cycle" = "循环次数: %d";
+"temperature" = "温度: %4.1f°C";
 
-// 硬盘
-"disk" = "硬盘: %4.1f%% 占用";
+// 存储
+"storage" = "存储: %4.1f%% 已使用";
 
 // 网络
 "network" = "网络: %@";
-"noConnection" = "未连接";
-"localIp" = "本地IP: %@";
+"noConnection" = "无连接";
+"localIp" = "本地 IP: %@";
 "upload" = "上传: %@";
 "download" = "下载: %@";
 "unknown" = "未知";
 
-// 自制
-"selfMadeError" = "自制的RunCat错误";
-"fileBroken" = "该RunCat的数据已损坏，请重新自制。";
+// ★★★ 关于 ★★★
+"support" = "支持页面\n";
+"url" = "https://kyome.io/runcat/index.html";
+"urlQueryLang" = "%@?lang=zh";
+"urlQueryLangHelp" = "%@?lang=zh#self_made";
 
-// 停止RunCat
-"stopRunnerMessage" = "你确实要停止RunCat吗？";
-"stopRunnerInfo" = "如果停止运行程序，此应用程序的唯一性将丢失。";
+// ★★★ 邮件 ★★★
+"issueReport" = "问题报告";
+"environment" = "# 环境\n- %@: ver %@\n- macOS: %@\n";
+"whatYouTried" = "# 您尝试过的操作\n- 重新启动应用: 是/否\n- 在跑步者商店中恢复: 是/否\n";
+"shortDescription" = "# 简短描述\n\n";
+"reproduceIssue" = "# 重现问题的步骤\n\n";
+"expectedResult" = "# 预期结果\n\n";
+
+// ★★★ 设置 ★★★
+// 一般
+"generalTab" = "一般";
+"generalWrapText" = "启动:";
+"runner:" = "跑步者:";
+"invertSpeed" = "反转速度";
+"flipHorizontally" = "水平翻转";
+"selectAutomatically" = "每10分钟自动随机选择";
+"excludingColoredRunners" = "排除彩色跑步者";
+"stopRunner" = "停止跑步者";
+"stopRunnerTitle" = "你真的要停止跑步者吗？";
+"stopRunnerMessage" = "如果你停止跑步者，这个应用的独特性将会丧失。";
 "changedMyMind" = "我改变主意了";
-"stop" = "停止RunCat";
+"stop" = "停止跑步者";
+"launch:" = "启动:";
+"launchAtLogin" = "在登录时自动启动 RunCat。";
 
-// 商店和 IAP 通知
-"storeOpenError" = "商店当前不可用";
-"cannotPayment" = "无法付款";
-"someTrouble" = "你的电脑可能没有连接到互联网，或者商店的服务器可能有问题。";
-"storeNotification" = "RunCat: RunCat商店";
-"finishPurchase" = "购买完成";
-"funTime" = "玩的开心！!";
-"finishRestore" = "恢复完成";
-"checkState" = "请检查购买状态。";
-"failedRestore" = "恢复失败";
-"failedPurchase" = "购买失败";
-"neverPurchase" = "至少需要购买一件商品。";
-"contactText" = "如需帮助，请通过 https://support.apple.com/apps/ 联系 App Store 支持。";
+// 系统信息
+"systemInfoTab" = "系统信息";
+"systemInfoWrapText" = "内存性能:";
+"indicator:" = "指示器:";
+"useShortForm" = "使用短格式";
+"cpuUsage:" = "CPU 使用率:";
+"memoryPerformance:" = "内存性能:";
+"batteryState:" = "电池状态:";
+"storageCapacity:" = "存储容量:";
+"networkConnection:" = "网络连接:";
+"activate" = "激活";
+"showInTheMenuBar" = "在菜单栏显示";
 
-// 商店物品
-"allRunnerDescription" = "不包括特殊颜色的RunCat。";
-"colorDescription" = "特殊颜色: 作出贡献的开发者。";
-"unlockedDescription" = "解锁自制跑者注册功能。";
+// ★★★ 跑步者商店 ★★★
+"runnersStoreTitle" = "跑步者商店";
+"restoreTitle" = "根据历史恢复";
+"restore" = "恢复";
 "purchase" = "购买";
-"purchased" = "已购买";
-"restore" = "从购买历史中恢复";
-"do" = "执行";
+"productNotFound" = "此产品未找到。";
+"productNotFoundSuggestion" = "在连接网络的情况下重启应用。";
+"productUnavailable" = "此产品无法使用。";
+"purchaseNotAllowed" = "不允许购买。";
+"purchaseNotAllowedSuggestion" = "检查您的 Apple ID 支付设置。";
+"userCancelled" = "用户取消了购买。";
+"pending" = "购买正在进行中。";
+"failedVerification" = "交易数据签名无效。";
+"unknownError" = "发生未知错误。";
 
-// 注册
-"addImage" = "选择PNG文件。";
-"registrationError" = "RunCat注册失败";
-"addImage" = "你上传的文件 FILE_NAME 违反了规定。";
-"over100" = "你不能上传超过100张图片。";
-"nameConflict" = "这个名字已经被使用了，请使用另一个。";
-"registerFailed" = "注册失败。";
-"loadingImageError" = "图像加载错误";
-"onlyPNG" = "你能使用的唯一文件格式是png。";
-"lockSelfMadeError" = "注册功能已被锁定";
-"mustBuy" = "请在RunCat商店购买自制RunCat。";
+// ★★★ 自制跑步者 ★★★
+"selfMadeRunnersTitle" = "自制跑步者";
+"selfMadeRunnersWrapText" = "前提条件:";
+"registeredRunners:" = "已注册跑步者:";
+"runnerName:" = "跑步者名称:";
+"color:" = "颜色:";
+"useOriginalColor" = "使用原色";
+"frames:" = "帧:";
+"preconditions:" = "前提条件:";
+"formatPrecondition" = "1. 格式: PNG";
+"heightPrecondition" = "2. 高度: 36px";
+"widthPrecondition" = "3. 宽度: 10~100px";
+"preview:" = "预览:";
+"register" = "注册";
+"toRegister" = "要注册，您必须在跑步者商店中购买此功能。";
+"registerErrorTitle" = "注册错误";
+"conflictName" = "此跑步者名称已被使用。";
+"violatePrecondition" = "加载的图像违反了一些前提条件。";
+"violateUpperLimit" = "帧的数量已达到上限。";
 
-// 错误支持
-"recommendMessage" = "目前启用了停止运行器的设置。";
-"recommendInfo" = "如果这不是你的本意，请在首选项中禁用停止运行器的设置，我对这可能造成的任何不便表示歉意。";
+// ★★★ 跑步者 ★★★
+// 跑步者类别
+"defaultCategory" = "默认跑步者";
+"animalCategory" = "动物类型跑步者";
+"inanimateCategory" = "无生命类型跑步者";
+"seasonalCategory" = "季节性跑步者";
+"specialCategory" = "特殊颜色跑步者（支持开发者）";
+"recommendedCategory" = "推荐物品";
 
-// Runner Name
-"cat"            = "Cat α";
-"b.cat"          = "Cat β";
-"c.cat"          = "Cat γ";
-"tail.cat"       = "Cat Tail";
-"cat.nyan.mock"  = "Mock Nyan Cat";
-"parrot"         = "Parrot";
-"human"          = "Human";
-"up.push"        = "Push-Up";
-"up.sit"         = "Sit-Up";
-"duck.rubber"    = "Rubber Duck";
-"city"           = "City";
-"sausage"        = "Sausage";
-"dots"           = "Dots";
-"reactor"        = "Reactor";
-"slime"          = "Slime";
-"fishman"        = "Fish-Man";
-"sheep"          = "Sheep";
-"sushi.rotating" = "Rotating Sushi";
-"people.party"   = "Party People";
-"dogeza"         = "Japanese Apology";
-    
-"cheetah"       = "Cheetah";
-"dog"           = "Dog";
-"puppy"         = "Puppy";
-"rabbit"        = "Rabbit";
-"frog"          = "Frog";
-"bird"          = "Bird";
-"penguin"       = "Penguin";
-"dolphin"       = "Dolphin";
-"dragon"        = "Dragon";
-"owl"           = "Owl";
-"dinosaur"      = "Dinosaur";
-"terrier"       = "Terrier";
-"hedgehog"      = "Hedgehog";
-"horse"         = "Horse";
-"penguin2"      = "Penguin 2";
-"wheel.hamster" = "Hamster Wheel";
-"octopus"       = "Octopus";
-"chameleon"     = "Chameleon";
-"chicken"       = "Chicken";
-"mouse"         = "Mouse";
-"pig"           = "Pig";
-"fox"           = "Fox";
-"whale"         = "Whale";
-"otter"         = "Otter";
-"squirrel"      = "Squirrel";
-"butterfly"     = "Butterfly";
-"greyhound"     = "Greyhound";
-"corgi.welsh"   = "Welsh Corgi";
-    
-"cogwheel"         = "Cogwheel";
-"bonfire"          = "Bonfire";
-"drop"             = "Drop";
-"rocket"           = "Rocket";
-"pendulum"         = "Pendulum";
-"cradle"           = "Newton's Cradle";
-"curve.sine"       = "Sine Curve";
-"pulse"            = "Pulse";
-"coffee"           = "Coffee";
-"locomotive.steam" = "Steam Locomotive";
-"drink.tapioca"    = "Tapioca Drink";
-"frypan"           = "Frypan";
-"factory"          = "Factory";
-"engine"           = "Engine";
-"earth"            = "Earth";
+// 跑步者名称
+"cat"            = "猫 α";
+"b.cat"          = "猫 β";
+"c.cat"          = "猫 γ";
+"tail.cat"       = "猫尾";
+"cat.nyan.mock"  = "模拟Nyan猫";
+"parrot"         = "鹦鹉";
+"human"          = "人类";
+"up.push"        = "俯卧撑";
+"up.sit"         = "仰卧起坐";
+"duck.rubber"    = "橡皮鸭";
+"city"           = "城市";
+"sausage"        = "香肠";
+"dots"           = "点";
+"reactor"        = "反应堆";
+"slime"          = "史莱姆";
+"fishman"        = "鱼人";
+"sheep"          = "羊";
+"sushi.rotating" = "旋转寿司";
+"people.party"   = "派对人群";
+"dogeza"         = "日本道歉";
 
-"sleigh.reindeer"   = "Reindeer & Sleigh";
-"snowman"           = "Snowman";
-"chime.wind"        = "Wind Chime";
-"sparkler"          = "Sparkler";
-"lantern.o.jack"    = "Jack O' Lantern";
-"ghost"             = "Ghost";
-"mochi"             = "Mochi";
+"cheetah"       = "猎豹";
+"dog"           = "狗";
+"puppy"         = "小狗";
+"rabbit"        = "兔子";
+"frog"          = "青蛙";
+"bird"          = "鸟";
+"penguin"       = "企鹅";
+"dolphin"       = "海豚";
+"dragon"        = "龙";
+"owl"           = "猫头鹰";
+"dinosaur"      = "恐龙";
+"terrier"       = "梗犬";
+"hedgehog"      = "刺猬";
+"horse"         = "马";
+"penguin2"      = "企鹅2";
+"wheel.hamster" = "仓鼠跑轮";
+"octopus"       = "章鱼";
+"chameleon"     = "变色龙";
+"chicken"       = "鸡";
+"mouse"         = "老鼠";
+"pig"           = "猪";
+"fox"           = "狐狸";
+"whale"         = "鲸鱼";
+"otter"         = "水獭";
+"squirrel"      = "松鼠";
+"butterfly"     = "蝴蝶";
+"greyhound"     = "灵缇犬";
+"corgi.welsh"   = "威尔士柯基";
 
-"runners.all"       = "Unlock All Runners";
-"cat.golden"        = "Golden Cat";
-"cat.cluster.metal" = "Metal Cluster Cat";
-"cat.flash"         = "Flash Cat";
-"neko.maneki"       = "Maneki Neko";
-"sushi"             = "Sushi";
-"cat.gaming"        = "Gaming Cat";
-"parrot.party"      = "Party Parrot";
+"cogwheel"         = "齿轮";
+"bonfire"          = "篝火";
+"drop"             = "滴";
+"rocket"           = "火箭";
+"pendulum"         = "摆";
+"cradle"           = "牛顿摇篮";
+"curve.sine"       = "正弦曲线";
+"pulse"            = "脉冲";
+"coffee"           = "咖啡";
+"locomotive.steam" = "蒸汽机车";
+"drink.tapioca"    = "珍珠奶茶";
+"frypan"           = "煎锅";
+"factory"          = "工厂";
+"engine"           = "引擎";
+"earth"            = "地球";
+
+"sleigh.reindeer"   = "驯鹿与雪橇";
+"snowman"           = "雪人";
+"chime.wind"        = "风铃";
+"sparkler"          = "仙女棒";
+"lantern.o.jack"    = "南瓜灯";
+"ghost"             = "幽灵";
+"mochi"             = "麻糬";
+
+"cat.golden"        = "金猫";
+"cat.cluster.metal" = "金属簇猫";
+"cat.flash"         = "闪猫";
+"neko.maneki"       = "招财猫";
+"sushi"             = "寿司";
+"cat.gaming"        = "游戏猫";
+"parrot.party"      = "派对鹦鹉";
 "uhooi"             = "Uhooi";
-"made.self"         = "Self-Made Runner";
+"entaku"            = "Entaku";
+
+"runners.all"       = "解锁所有跑步者";
+"made.self"         = "自制跑步者";
