@@ -15,7 +15,3 @@
 ## 贡献
 
 如果你发现了任何问题，或者想为这个项目做出贡献，欢迎提交 Issue 或 Pull Request。
-
-## 许可证
-
-本项目采用 MIT 许可证，详情请参阅 [LICENSE](https://readme.rustc.cloud/LICENSE) 文件。
