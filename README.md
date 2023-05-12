@@ -1,29 +1,21 @@
-# RunCat_Chinese
-
-RunCat 任务栏养猫的中文汉化包(目前仅限 MacOS)
-
-RunCat Version: 10.0（10.0.3）(在App Store里下载)
-
-## 效果图
-
 ![效果图](https://s3.bmp.ovh/imgs/2022/07/28/2548df1b958b7a19.png)
 
-## 使用方法
+# 🐱 macOS RunCat 中文语言包
 
-- ### 1. 下载项目，得到`zh_CN.lproj`文件夹
+这个 Github 项目提供了一个 macOS RunCat 的中文语言包。只需将 `zh_CN.lproj` 文件夹拖入 RunCat 的 `Resources` 文件夹中，即可将 RunCat 的界面语言变更为中文。
 
-- ### 2. 在访达的 `应用程序¹` 中找到 RunCat 应用的`Resources`文件夹
+## 如何使用
 
-    ```path
-    /Applications/RunCat.app/Contents/Resources/
-    ```
+1. 下载中文语言包 `zh_CN.lproj` 文件夹；
+2. 打开 Finder，进入 RunCat 应用程序的安装目录；
+3. 右键点击 RunCat 应用程序，选择“显示包内容”；
+4. 进入 `Contents/Resources` 文件夹；
+5. 将下载的 `zh_CN.lproj` 文件夹拖入 `Resources` 文件夹中即可。
 
-- ### 3. 将`zh_CN.lproj`放进去即可，最终文件路径应该是
+## 贡献
 
-    ```path
-    /Applications/RunCat.app/Contents/Resources/zh_CN.lproj/
-    ```
+如果你发现了任何问题，或者想为这个项目做出贡献，欢迎提交 Issue 或 Pull Request。
 
-## TODO
+## 许可证
 
-- [x] 完成 `偏好设置` 界面的汉化。
+本项目采用 MIT 许可证，详情请参阅 [LICENSE](https://readme.rustc.cloud/LICENSE) 文件。
