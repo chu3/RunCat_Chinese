@@ -12,6 +12,10 @@
 4. 进入 `Contents/Resources` 文件夹；
 5. 将下载的 `zh_CN.lproj` 文件夹拖入 `Resources` 文件夹中即可。
 
+### 懒人方法：
+
+1. 下载[Releases](https://github.com/chu3/RunCat_Chinese/releases)中的RunCat.zip，解压后拖到【应用程序】中打开即可使用。
+
 ## 贡献
 
 如果你发现了任何问题，或者想为这个项目做出贡献，欢迎提交 Issue 或 Pull Request。
