@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Created by Takuto Nakamura on 2024/03/03.
+*/
+
+// CPU
+"cpu%lf" = "CPU: %4.1f%%";
+"cpuSystem%lf" = "系统: %4.1f%%";
+"cpuUser%lf" = "用户: %4.1f%%";
+"cpuIdle%lf" = "空闲: %4.1f%%";
+
+// Memory
+"memory%lf" = "内存: %4.1f%%";
+"memoryPressure%lf" = "压力: %4.1f%%";
+"memoryApp%lf" = "应用: %4.1f GB";
+"memoryWired%lf" = "联动: %4.1f GB";
+"memoryCompressed%lf" = "压缩: %4.1f GB";
+
+// Battery
+"battery%lf" = "电池: %5.1f%%";
+"batteryIsNotInstalled" = "电池: 未安装";
+"batteryHealth%lf" = "健康: %5.1f%%";
+"batteryMaxCapacity%lf" = "最大容量: %5.1f%%";
+"batteryPowerSource%@" = "电源: %@";
+"batteryCycle%lld" = "循环次数: %lld";
+"batteryTemperature%lf" = "温度: %4.1f℃";
+"batteryUnknown" = "未知";
+
+// Storage
+"storage%lf" = "存储: %4.1f%% 已使用";
+
+// Network
+"network%@" = "网络: %@";
+"networkLocalIP%@" = "本地IP: %@";
+"networkUpload%@" = "上传: %@";
+"networkDownload%@" = "下载: %@";
+"networkNoConnection" = "无连接";
+"networkUnknown" = "未知";
