@@ -2,7 +2,7 @@
 
 # 🐱 macOS RunCat 中文语言包
 
-> 当前RunCat版本：11.2.1
+> 当前RunCat版本：11.3
 
 这个Github项目提供了一个macOS App Store上的 [RunCat](https://apps.apple.com/cn/app/runcat/id1429033973?mt=12)  应用程序的中文语言包。只需将提供的`Contents`文件夹替换RunCat的安装目录中的同名文件夹，即可将RunCat的界面语言更改为中文。
 
@@ -17,7 +17,7 @@
 ## 💾 懒人方法
 
 1. 下载[Releases](https://github.com/chu3/RunCat_Chinese/releases)中的RunCat.zip文件，并解压缩。
-2. 将解压后的RunCat应用程序拖放到“应用程序”文件夹中，即可立即使用。
+2. 将解压后的RunCat应用程序拖放到“应用程序”文件夹中，打开即可使用。
 
 ## 🎛️ 版本选择
 
