@@ -2,7 +2,7 @@
 
 # 🐱 macOS RunCat 中文语言包
 
-> 当前适配 RunCat 版本：11.4
+> 当前适配 RunCat 版本：12.0
 
 为 macOS App Store 应用 [RunCat](https://apps.apple.com/cn/app/runcat/id1429033973?mt=12) 提供中文语言支持。通过自动/手动替换应用资源文件实现汉化。
 
